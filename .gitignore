@@ -1,5 +1,4 @@
-
 bin/
-src/.vs/
-src/obj/
-src/JoyConTest.VC.db
+.vs/
+obj/
+JoyConTest.VC.db

@@ -1,14 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.6.33829.357
+VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joycon4CS", "Joycon4CS.csproj", "{449A7A4C-F989-4365-BB88-CA751FA32C76}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoyconDemo", "JoyconDemo.csproj", "{7347807D-86A2-40BB-A01D-194BF27B302A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joycon4CSDemo", "..\demoapp\Joycon4CSDemo.csproj", "{7347807D-86A2-40BB-A01D-194BF27B302A}"
-	ProjectSection(ProjectDependencies) = postProject
-		{449A7A4C-F989-4365-BB88-CA751FA32C76} = {449A7A4C-F989-4365-BB88-CA751FA32C76}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joycon4CS", "..\src\Joycon4CS.csproj", "{449A7A4C-F989-4365-BB88-CA751FA32C76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,14 +15,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{449A7A4C-F989-4365-BB88-CA751FA32C76}.Debug|x64.ActiveCfg = Debug|x64
-		{449A7A4C-F989-4365-BB88-CA751FA32C76}.Debug|x64.Build.0 = Debug|x64
-		{449A7A4C-F989-4365-BB88-CA751FA32C76}.Debug|x86.ActiveCfg = Debug|x86
-		{449A7A4C-F989-4365-BB88-CA751FA32C76}.Debug|x86.Build.0 = Debug|x86
-		{449A7A4C-F989-4365-BB88-CA751FA32C76}.Release|x64.ActiveCfg = Release|x64
-		{449A7A4C-F989-4365-BB88-CA751FA32C76}.Release|x64.Build.0 = Release|x64
-		{449A7A4C-F989-4365-BB88-CA751FA32C76}.Release|x86.ActiveCfg = Release|x86
-		{449A7A4C-F989-4365-BB88-CA751FA32C76}.Release|x86.Build.0 = Release|x86
 		{7347807D-86A2-40BB-A01D-194BF27B302A}.Debug|x64.ActiveCfg = Debug|x64
 		{7347807D-86A2-40BB-A01D-194BF27B302A}.Debug|x64.Build.0 = Debug|x64
 		{7347807D-86A2-40BB-A01D-194BF27B302A}.Debug|x86.ActiveCfg = Debug|x86
@@ -34,11 +23,19 @@ Global
 		{7347807D-86A2-40BB-A01D-194BF27B302A}.Release|x64.Build.0 = Release|x64
 		{7347807D-86A2-40BB-A01D-194BF27B302A}.Release|x86.ActiveCfg = Release|x86
 		{7347807D-86A2-40BB-A01D-194BF27B302A}.Release|x86.Build.0 = Release|x86
+		{449A7A4C-F989-4365-BB88-CA751FA32C76}.Debug|x64.ActiveCfg = Debug|x64
+		{449A7A4C-F989-4365-BB88-CA751FA32C76}.Debug|x64.Build.0 = Debug|x64
+		{449A7A4C-F989-4365-BB88-CA751FA32C76}.Debug|x86.ActiveCfg = Debug|x86
+		{449A7A4C-F989-4365-BB88-CA751FA32C76}.Debug|x86.Build.0 = Debug|x86
+		{449A7A4C-F989-4365-BB88-CA751FA32C76}.Release|x64.ActiveCfg = Release|x64
+		{449A7A4C-F989-4365-BB88-CA751FA32C76}.Release|x64.Build.0 = Release|x64
+		{449A7A4C-F989-4365-BB88-CA751FA32C76}.Release|x86.ActiveCfg = Release|x86
+		{449A7A4C-F989-4365-BB88-CA751FA32C76}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2FA2BEA8-D984-4FFD-AF04-93FCDD5F721C}
+		SolutionGuid = {F508A4F1-2440-49DD-9563-267745BAC9E5}
 	EndGlobalSection
 EndGlobal

@@ -28,7 +28,7 @@ namespace Joycon4CS
 			get { return instance; }
 		}
 
-		internal void Scan()
+		public void Scan()
 		{
 			if (instance != null) ;
 			instance = this;
@@ -81,7 +81,7 @@ namespace Joycon4CS
 			HIDapi.hid_free_enumeration(top_ptr);
 		}
 
-		internal void Start()
+		public void Start()
 		{
 			for (int i = 0; i < j.Count; ++i)
 			{
@@ -94,7 +94,7 @@ namespace Joycon4CS
 			}
 		}
 
-		internal void Update()
+		public void Update()
 		{
 			for (int i = 0; i < j.Count; ++i)
 			{
@@ -103,7 +103,7 @@ namespace Joycon4CS
 			}
 		}
 
-		internal void OnApplicationQuit()
+		public void OnApplicationQuit()
 		{
 			for (int i = 0; i < j.Count; ++i)
 			{

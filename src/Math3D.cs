@@ -13,7 +13,7 @@ using System.Windows.Forms;
 
 namespace Math3D
 {
-    class Math3D
+    public class Math3D
     {
         const double PIOVER180 = Math.PI / 180.0;
 
